@@ -3,7 +3,7 @@
 * This project is build using React framework. 
 
 ## Download Packages and Dependencies
-### npm install
+### `npm install`
 
 ## Build the application
 In the project directory, you can run:
