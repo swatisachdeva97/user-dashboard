@@ -198,13 +198,16 @@
     overflow: hidden;
     margin-top: 10px;
     border-radius: 10px;
-    width: 19%;
+    width: 25%;
+    float: left;
+
 }
 
 .additional-details {
     padding-top: 50px;
     width: 100%;
     height: 100%;
+    padding-right: 50px;
 }
 
 .search-error{
@@ -216,5 +219,69 @@
     overflow: hidden;
     margin-top: 10px;
     border-radius: 10px;
-    width: 100%;
+}
+
+
+/* Ignore This, just coloring */
+body {
+    background: #fff;
+}
+
+article {
+    background: #f1f1f1;
+    border-radius: 12px;
+    padding: 25px 0 600px;
+}
+
+
+.title-section, .content-section, .sidebar-section {
+    background: #fff;
+
+}
+
+.title-section {
+    text-align: center;
+    padding: 50px 15px;
+    margin-bottom: 30px;
+}
+
+.content-section h2 {
+    text-align: center;
+    margin: 0;
+}
+
+.sidebar-item {
+    text-align: center;
+}
+
+h3 {
+    background: gold;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 50px 0 100px;
+    border-bottom: solid 1px #fff;
+
+}
+.right-panel, .left-panel{
+    border: 1px solid black;
+    overflow:scroll;
+    overflow-x:hidden;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    border: 2px dashed rgba(114, 186, 94, 0.35);
+    height: 400px;
+    background: rgba(114, 186, 94, 0.05);
+}
+
+.item {
+    position: sticky;
+}
+
+.fixed-layout {
+    top: 1rem;
+    align-self: flex-start;
+    height: 800px
 }
